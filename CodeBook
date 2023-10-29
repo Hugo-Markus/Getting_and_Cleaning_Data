@@ -1,0 +1,24 @@
+The downloaded datasets were transformed by the following steps:
+
+1) Merging the training and test datasets into one dataset
+
+2) Discarding all columns except those containing the mean and standard deviation for each measurement.
+
+3) Using descriptive activity names for the different types of activities in the dataset
+
+4) Adding activity names to the dataset
+
+5) Creating a new tidy dataset with the average of each variable for each activity and each subject.
+
+
+
+Variables:
+X_train, Y_train, X_test, Y_test, Subject_train and Subject_test contain the data from the downloaded files.
+features contains all column names
+activity_labels contains the descriptions of the activities
+merged_train, merged_test, merged_all contain merged data of X and Y
+column_names contains all column names
+mean_and_std contains those columns that contain mean or std
+mean_and_std_subset contains data for only means and std
+activity_names_subset contains data with a descriptive title added for the activities
+new_tidy_subset contains an aggregated dataset to get the average of each variable for each activity and each subject
