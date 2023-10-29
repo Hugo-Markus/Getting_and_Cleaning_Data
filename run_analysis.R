@@ -72,6 +72,7 @@ new_tidy_subset <- aggregate(. ~SubjectID + ActivityID, activity_names_subset, F
 # Order the rows by the SubjectID and ActivityID
 new_tidy_subset <- arrange(new_tidy_subset, SubjectID, ActivityID)
   
+# Done!
 
 
 
